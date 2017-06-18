@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. Source">
+      <UniqueIdentifier>{d69d5b3e-8451-49a6-9b4f-eb0cbf04ef13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\1. MainApp">
+      <UniqueIdentifier>{f34c9f68-2c0b-418e-9456-26ca98c51405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\2. Scene">
+      <UniqueIdentifier>{c7e0e3dc-ba56-4871-ab84-34eaa50c0825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\2. Scene\1. Logo">
+      <UniqueIdentifier>{2a47f2ab-5dd0-44f6-b353-c87877265420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\2. Scene\2. Stage">
+      <UniqueIdentifier>{18ff83da-90a7-4626-9acb-c394b4a30f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\2. Scene\9. Loading">
+      <UniqueIdentifier>{35ccaca1-ade3-4ff0-96aa-8365c1af9776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object">
+      <UniqueIdentifier>{c658b837-f859-4f38-8856-ecfdd0422735}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject">
+      <UniqueIdentifier>{88773c68-540a-4484-ba50-41454e8fdb10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube">
+      <UniqueIdentifier>{6e468db8-ce3c-4ac8-afd3-7d80eed58f37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube\BlueCube">
+      <UniqueIdentifier>{9ac5a143-75a8-40e6-9dc4-6e14f93f816e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube\CubeWall">
+      <UniqueIdentifier>{29683e8d-839e-40b8-859d-d59dd196e90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube\GrayCube">
+      <UniqueIdentifier>{63ee10b9-a248-433c-8ee3-5d99a8e858e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube\GreenCube">
+      <UniqueIdentifier>{fa732861-6423-464c-8b21-6a6ef7dc10e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube\OrangeCube">
+      <UniqueIdentifier>{d869a387-dd26-47dd-8ebe-0c7fca8e9ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube\PurpleCube">
+      <UniqueIdentifier>{e0858a3a-8121-4af2-be67-8a88f1c2f814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube\RedCube">
+      <UniqueIdentifier>{ee718674-8c2f-48d9-9f4b-0457a48a8aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube\WhiteCube">
+      <UniqueIdentifier>{d526db54-804e-4250-a163-60a4b82b3503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\2. QubeObject\Cube\YellowCube">
+      <UniqueIdentifier>{240051cc-c8b4-42d3-bc5c-758e4bcd9832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\1. UI">
+      <UniqueIdentifier>{b9d901d2-8ad5-4de0-bdac-db00efb545bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\1. UI\John">
+      <UniqueIdentifier>{1dccdb4b-6789-45fc-aa07-f18e6926ebbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\1. UI\CrossHair">
+      <UniqueIdentifier>{4017797b-3542-4923-b761-13f7a55dd603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\3. Logo">
+      <UniqueIdentifier>{45e3f78d-2124-4153-a20a-2de4b8a4a1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\3. Logo\Scenery">
+      <UniqueIdentifier>{f7e65b96-0269-4853-9077-9028695f15a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\4. Environment">
+      <UniqueIdentifier>{fcd7d33a-a5e6-4f5b-bc86-4ff15d4e27b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\3. Object\4. Environment\SkyDorm">
+      <UniqueIdentifier>{e79746a4-67bd-4aa5-89f5-ed674580009d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\4. Design">
+      <UniqueIdentifier>{6a06f354-e88b-4a0c-bdc5-b41dcd027787}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\4. Design\1. Observer">
+      <UniqueIdentifier>{3b658cd9-c341-4219-b8bd-1e1246a5d022}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\4. Design\1. Observer\JohnStateObserver">
+      <UniqueIdentifier>{4c3d595f-22b7-4f42-b662-9ac768c58280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\4. Design\1. Observer\JohnStateSubject">
+      <UniqueIdentifier>{7131b85e-f902-48c6-8563-16fb670a15e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\5. Manager">
+      <UniqueIdentifier>{aa134b65-8daa-4224-af19-d0831754e819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\5. Manager\Collision">
+      <UniqueIdentifier>{29bbc8d5-2eb8-4e20-81e5-e4e9b0347271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\5. Manager\Particle">
+      <UniqueIdentifier>{e8632282-3c39-4d6f-840f-b9bddb2b007c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\5. Manager\Particle\TextureParticle">
+      <UniqueIdentifier>{182f8b1b-f625-4446-933a-4f71b87098c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\5. Manager\Particle\TextureParticle\TextureParticleManager">
+      <UniqueIdentifier>{5c4119b0-2b33-42d9-86be-78c49ed997e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="1. Source\5. Manager\Sound">
+      <UniqueIdentifier>{19d4eb83-be27-47a0-8acc-8a4a6e5a3629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Headers">
+      <UniqueIdentifier>{3ecee1b1-8a18-40ec-84bf-54aa0d0f8e59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{93f25c70-5718-4149-8020-51375750de3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Compiler\헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Compiler\소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Source\MainApp.cpp">
+      <Filter>1. Source\1. MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Logo.cpp">
+      <Filter>1. Source\2. Scene\1. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Stage.cpp">
+      <Filter>1. Source\2. Scene\2. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Loading.cpp">
+      <Filter>1. Source\2. Scene\9. Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Cube.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\BlueCube.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\BlueCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CubeWall.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\CubeWall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GrayCube.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\GrayCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\GreenCube.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\GreenCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\OrangeCube.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\OrangeCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PurpleCube.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\PurpleCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\RedCube.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\RedCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\WhiteCube.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\WhiteCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\YellowCube.cpp">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\YellowCube</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\John.cpp">
+      <Filter>1. Source\3. Object\1. UI\John</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\CrossHair.cpp">
+      <Filter>1. Source\3. Object\1. UI\CrossHair</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\Scenery.cpp">
+      <Filter>1. Source\3. Object\3. Logo\Scenery</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\SkyDorm.cpp">
+      <Filter>1. Source\3. Object\4. Environment\SkyDorm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\JohnStateObserver.cpp">
+      <Filter>1. Source\4. Design\1. Observer\JohnStateObserver</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\JohnStateSubject.cpp">
+      <Filter>1. Source\4. Design\1. Observer\JohnStateSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared_Source\CollisionManager.cpp">
+      <Filter>1. Source\5. Manager\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\PickingParticle.cpp">
+      <Filter>1. Source\5. Manager\Particle\TextureParticle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared_Source\TextureParticleManager.cpp">
+      <Filter>1. Source\5. Manager\Particle\TextureParticle\TextureParticleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Shared_Source\SoundMgr.cpp">
+      <Filter>1. Source\5. Manager\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>Compiler\소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Compiler\소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Source\MainApp.h">
+      <Filter>1. Source\1. MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SelectScene.h">
+      <Filter>1. Source\2. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Logo.h">
+      <Filter>1. Source\2. Scene\1. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Stage.h">
+      <Filter>1. Source\2. Scene\2. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Loading.h">
+      <Filter>1. Source\2. Scene\9. Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Cube.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\BlueCube.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\BlueCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CubeWall.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\CubeWall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GrayCube.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\GrayCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\GreenCube.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\GreenCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\OrangeCube.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\OrangeCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PurpleCube.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\PurpleCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\RedCube.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\RedCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\WhiteCube.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\WhiteCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\YellowCube.h">
+      <Filter>1. Source\3. Object\2. QubeObject\Cube\YellowCube</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\John.h">
+      <Filter>1. Source\3. Object\1. UI\John</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\CrossHair.h">
+      <Filter>1. Source\3. Object\1. UI\CrossHair</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\Scenery.h">
+      <Filter>1. Source\3. Object\3. Logo\Scenery</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\SkyDorm.h">
+      <Filter>1. Source\3. Object\4. Environment\SkyDorm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\JohnStateObserver.h">
+      <Filter>1. Source\4. Design\1. Observer\JohnStateObserver</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\JohnStateSubject.h">
+      <Filter>1. Source\4. Design\1. Observer\JohnStateSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared_Source\CollisionManager.h">
+      <Filter>1. Source\5. Manager\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Source\PickingParticle.h">
+      <Filter>1. Source\5. Manager\Particle\TextureParticle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared_Source\TextureParticleManager.h">
+      <Filter>1. Source\5. Manager\Particle\TextureParticle\TextureParticleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared_Source\SoundMgr.h">
+      <Filter>1. Source\5. Manager\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared_Source\Enum.h">
+      <Filter>2. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>2. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>2. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Shared_Source\Value.h">
+      <Filter>2. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>Compiler\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Compiler\헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Compiler\헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>Compiler\리소스 파일</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>Compiler\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>Compiler\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

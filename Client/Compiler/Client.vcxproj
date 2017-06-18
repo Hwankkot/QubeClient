@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BFBBDC8A-D6ED-4507-A85D-595A39C4BDDB}</ProjectGuid>
+    <RootNamespace>Client</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>15.0.26419.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../bin\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../Shared_Source;../Source;../../Reference/Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;System.lib;Utility.lib;Resources.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>../Shared_Source;../Source;../../Reference/Headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;System.lib;Utility.lib;Resources.lib;winmm.lib;dxguid.lib;PhysXLoader.lib;PhysXCooking.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../Reference/Libraries;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Shared_Source\CollisionManager.cpp" />
+    <ClCompile Include="..\Shared_Source\SoundMgr.cpp" />
+    <ClCompile Include="..\Shared_Source\TextureParticleManager.cpp" />
+    <ClCompile Include="..\Source\BlueCube.cpp" />
+    <ClCompile Include="..\Source\CrossHair.cpp" />
+    <ClCompile Include="..\Source\Cube.cpp" />
+    <ClCompile Include="..\Source\CubeWall.cpp" />
+    <ClCompile Include="..\Source\GrayCube.cpp" />
+    <ClCompile Include="..\Source\GreenCube.cpp" />
+    <ClCompile Include="..\Source\John.cpp" />
+    <ClCompile Include="..\Source\JohnStateObserver.cpp" />
+    <ClCompile Include="..\Source\JohnStateSubject.cpp" />
+    <ClCompile Include="..\Source\Loading.cpp" />
+    <ClCompile Include="..\Source\Logo.cpp" />
+    <ClCompile Include="..\Source\MainApp.cpp" />
+    <ClCompile Include="..\Source\OrangeCube.cpp" />
+    <ClCompile Include="..\Source\PickingParticle.cpp" />
+    <ClCompile Include="..\Source\PurpleCube.cpp" />
+    <ClCompile Include="..\Source\RedCube.cpp" />
+    <ClCompile Include="..\Source\Scenery.cpp" />
+    <ClCompile Include="..\Source\SkyDorm.cpp" />
+    <ClCompile Include="..\Source\Stage.cpp" />
+    <ClCompile Include="..\Source\WhiteCube.cpp" />
+    <ClCompile Include="..\Source\YellowCube.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Shared_Source\CollisionManager.h" />
+    <ClInclude Include="..\Shared_Source\Enum.h" />
+    <ClInclude Include="..\Shared_Source\SoundMgr.h" />
+    <ClInclude Include="..\Shared_Source\TextureParticleManager.h" />
+    <ClInclude Include="..\Shared_Source\Value.h" />
+    <ClInclude Include="..\Source\BlueCube.h" />
+    <ClInclude Include="..\Source\CrossHair.h" />
+    <ClInclude Include="..\Source\Cube.h" />
+    <ClInclude Include="..\Source\CubeWall.h" />
+    <ClInclude Include="..\Source\GrayCube.h" />
+    <ClInclude Include="..\Source\GreenCube.h" />
+    <ClInclude Include="..\Source\John.h" />
+    <ClInclude Include="..\Source\JohnStateObserver.h" />
+    <ClInclude Include="..\Source\JohnStateSubject.h" />
+    <ClInclude Include="..\Source\Loading.h" />
+    <ClInclude Include="..\Source\Logo.h" />
+    <ClInclude Include="..\Source\MainApp.h" />
+    <ClInclude Include="..\Source\OrangeCube.h" />
+    <ClInclude Include="..\Source\PickingParticle.h" />
+    <ClInclude Include="..\Source\PurpleCube.h" />
+    <ClInclude Include="..\Source\RedCube.h" />
+    <ClInclude Include="..\Source\Scenery.h" />
+    <ClInclude Include="..\Source\SelectScene.h" />
+    <ClInclude Include="..\Source\SkyDorm.h" />
+    <ClInclude Include="..\Source\Stage.h" />
+    <ClInclude Include="..\Source\WhiteCube.h" />
+    <ClInclude Include="..\Source\YellowCube.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Functor.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

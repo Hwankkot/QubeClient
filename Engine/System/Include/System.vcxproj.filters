@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. GraphicDev">
+      <UniqueIdentifier>{96f7b383-4c6d-44df-9926-1392f0f69842}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. Time">
+      <UniqueIdentifier>{19b81f5d-385f-4bbb-9916-263c3b6ff9fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="9. Export">
+      <UniqueIdentifier>{a3ebc410-e2f4-4e3b-b9cf-ff4fe54cfc01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. FontMgr">
+      <UniqueIdentifier>{8137da29-683c-46d1-8b9e-52bc2ad8ee8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. FontMgr\Font">
+      <UniqueIdentifier>{b14241b2-dcc9-41f4-aa98-92a03ee3e45e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. Input">
+      <UniqueIdentifier>{377c25c6-d680-4a53-a31a-06d1f8c67123}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Code\GraphicDev.cpp">
+      <Filter>1. GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\TimeMgr.cpp">
+      <Filter>2. Time</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\FontMgr.cpp">
+      <Filter>3. FontMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Font.cpp">
+      <Filter>3. FontMgr\Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\Input.cpp">
+      <Filter>4. Input</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Code\GraphicDev.h">
+      <Filter>1. GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\TimeMgr.h">
+      <Filter>2. Time</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Export\Export_System.h">
+      <Filter>9. Export</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\FontMgr.h">
+      <Filter>3. FontMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Font.h">
+      <Filter>3. FontMgr\Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Code\Input.h">
+      <Filter>4. Input</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Export\Export_System.inl">
+      <Filter>9. Export</Filter>
+    </None>
+  </ItemGroup>
+</Project>

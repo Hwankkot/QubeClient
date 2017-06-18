@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{428FE2EA-7580-44B6-90B9-B427070B9F1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{B7101CAA-3E93-47FE-AF9B-9DBC3BF1FFF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. System", "1. System", "{E0B1909B-569F-4FB5-B836-9374F0CE1E0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Utility", "2. Utility", "{948B8CBD-5AFF-4D47-9F8A-3D17D72008C5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Resources", "3. Resources", "{2B3AB2FB-B494-428B-9A68-268CDB84112E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Headers", "4. Headers", "{5C36F652-8BB7-46D1-A525-4B5978C25293}"
+	ProjectSection(SolutionItems) = preProject
+		Engine\Headers\Engine_Enum.h = Engine\Headers\Engine_Enum.h
+		Engine\Headers\Engine_Function.h = Engine\Headers\Engine_Function.h
+		Engine\Headers\Engine_Functor.h = Engine\Headers\Engine_Functor.h
+		Engine\Headers\Engine_Include.h = Engine\Headers\Engine_Include.h
+		Engine\Headers\Engine_Macro.h = Engine\Headers\Engine_Macro.h
+		Engine\Headers\Engine_Struct.h = Engine\Headers\Engine_Struct.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "System", "Engine\System\Include\System.vcxproj", "{F8CC7C1A-07BF-4FCE-B91B-0F87DDC894AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utility", "Engine\Utility\Include\Utility.vcxproj", "{7F39BE41-A32E-48BB-AE69-6B70CB7FC8FE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Resources", "Engine\Resources\Include\Resources.vcxproj", "{837B01B6-3D16-4E84-BC80-5A3F81EF1321}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Compiler\Client.vcxproj", "{BFBBDC8A-D6ED-4507-A85D-595A39C4BDDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8CC7C1A-07BF-4FCE-B91B-0F87DDC894AE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F8CC7C1A-07BF-4FCE-B91B-0F87DDC894AE}.Debug|Win32.Build.0 = Debug|Win32
+		{F8CC7C1A-07BF-4FCE-B91B-0F87DDC894AE}.Release|Win32.ActiveCfg = Release|Win32
+		{F8CC7C1A-07BF-4FCE-B91B-0F87DDC894AE}.Release|Win32.Build.0 = Release|Win32
+		{7F39BE41-A32E-48BB-AE69-6B70CB7FC8FE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7F39BE41-A32E-48BB-AE69-6B70CB7FC8FE}.Debug|Win32.Build.0 = Debug|Win32
+		{7F39BE41-A32E-48BB-AE69-6B70CB7FC8FE}.Release|Win32.ActiveCfg = Release|Win32
+		{7F39BE41-A32E-48BB-AE69-6B70CB7FC8FE}.Release|Win32.Build.0 = Release|Win32
+		{837B01B6-3D16-4E84-BC80-5A3F81EF1321}.Debug|Win32.ActiveCfg = Debug|Win32
+		{837B01B6-3D16-4E84-BC80-5A3F81EF1321}.Debug|Win32.Build.0 = Debug|Win32
+		{837B01B6-3D16-4E84-BC80-5A3F81EF1321}.Release|Win32.ActiveCfg = Release|Win32
+		{837B01B6-3D16-4E84-BC80-5A3F81EF1321}.Release|Win32.Build.0 = Release|Win32
+		{BFBBDC8A-D6ED-4507-A85D-595A39C4BDDB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BFBBDC8A-D6ED-4507-A85D-595A39C4BDDB}.Debug|Win32.Build.0 = Debug|Win32
+		{BFBBDC8A-D6ED-4507-A85D-595A39C4BDDB}.Release|Win32.ActiveCfg = Release|Win32
+		{BFBBDC8A-D6ED-4507-A85D-595A39C4BDDB}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E0B1909B-569F-4FB5-B836-9374F0CE1E0E} = {B7101CAA-3E93-47FE-AF9B-9DBC3BF1FFF0}
+		{948B8CBD-5AFF-4D47-9F8A-3D17D72008C5} = {B7101CAA-3E93-47FE-AF9B-9DBC3BF1FFF0}
+		{2B3AB2FB-B494-428B-9A68-268CDB84112E} = {B7101CAA-3E93-47FE-AF9B-9DBC3BF1FFF0}
+		{5C36F652-8BB7-46D1-A525-4B5978C25293} = {B7101CAA-3E93-47FE-AF9B-9DBC3BF1FFF0}
+		{F8CC7C1A-07BF-4FCE-B91B-0F87DDC894AE} = {E0B1909B-569F-4FB5-B836-9374F0CE1E0E}
+		{7F39BE41-A32E-48BB-AE69-6B70CB7FC8FE} = {948B8CBD-5AFF-4D47-9F8A-3D17D72008C5}
+		{837B01B6-3D16-4E84-BC80-5A3F81EF1321} = {2B3AB2FB-B494-428B-9A68-268CDB84112E}
+		{BFBBDC8A-D6ED-4507-A85D-595A39C4BDDB} = {428FE2EA-7580-44B6-90B9-B427070B9F1D}
+	EndGlobalSection
+EndGlobal
